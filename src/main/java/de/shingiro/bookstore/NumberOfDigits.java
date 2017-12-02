@@ -4,6 +4,7 @@
 package de.shingiro.bookstore;
 
 import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 
 import javax.inject.Qualifier;
 
@@ -12,18 +13,11 @@ import javax.inject.Qualifier;
  *
  */
 @Qualifier
-@Retention(RUNTIME)
-@Target({FIELD, TYPE, METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+// @Target({FIELD, TYPE, METHOD})
 public @interface NumberOfDigits {
 
 	Digits value();
 	boolean odd();
 }
 
-public enum Digits {
-	
-	TWO,
-	EIGHT,
-	TEN,
-	THIRTEEN
-}

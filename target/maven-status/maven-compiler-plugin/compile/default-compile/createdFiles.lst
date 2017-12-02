@@ -1,0 +1,11 @@
+de\shingiro\bookstore\BookService.class
+de\shingiro\bookstore\NumberOfDigits.class
+de\shingiro\bookstore\IsbnGenerator.class
+de\shingiro\bookstore\Book.class
+de\shingiro\bookstore\NumberGenerator.class
+de\shingiro\bookstore\Digits.class
+de\shingiro\bookstore\EightDigits.class
+de\shingiro\bookstore\App.class
+de\shingiro\bookstore\ThirteenDigits.class
+de\shingiro\bookstore\IssnGenerator.class
+de\shingiro\bookstore\CD.class

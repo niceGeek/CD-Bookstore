@@ -4,7 +4,8 @@
 package de.shingiro.bookstore;
 
 import java.lang.annotation.Retention;
-import java.lang.annotation.Target;
+import java.lang.annotation.RetentionPolicy;
+// import java.lang.annotation.Target;
 
 import javax.inject.Qualifier;
 
@@ -13,6 +14,6 @@ import javax.inject.Qualifier;
  *
  */
 @Qualifier
-@Retention(RUNTIME)
-@Target({FIELD, TYPE, METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+// @Target({FIELD, TYPE, METHOD})
 public @interface ThirteenDigits {}
